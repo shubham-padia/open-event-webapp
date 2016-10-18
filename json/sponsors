@@ -1,1 +1,110 @@
-[{"level": "1", "url": "https://developers.google.com/open-source/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/339/logo/dWlyc1BrVk/Google_1.png", "id": 339, "sponsor_type": "Diamond", "name": "Google"}, {"level": "2", "url": "http://redhat.com", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/340/logo/Zndjd0ZOUy/Redhat_2.png", "id": 340, "sponsor_type": "Platinum", "name": "RedHat"}, {"level": "1", "url": "http://github.com", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/341/logo/WHM1R2t2a2/Github_3.png", "id": 341, "sponsor_type": "Platinum", "name": "GitHub"}, {"level": "4", "url": "http://mysql.com", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/342/logo/a3dTdmlqOW/Mysql_4.png", "id": 342, "sponsor_type": "Gold", "name": "MySQL"}, {"level": "2", "url": "http://mbm.asia/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/345/logo/aDFPbGV6RE/Mbm_7.png", "id": 345, "sponsor_type": "Gold", "name": "MBM"}, {"level": "5", "url": "https://hackerspace.sg/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/346/logo/d2p5dTRRam/Hackerspace.Sg_8.png", "id": 346, "sponsor_type": "Silver", "name": "hackerspace.sg"}, {"level": "4", "url": "http://enterprise.nus.edu.sg/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/347/logo/eFRQaTVsaG/NusEnterprise_9.png", "id": 347, "sponsor_type": "Silver", "name": "NUS Enterprise"}, {"level": "5", "url": "https://www.python.org/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/348/logo/UTZmdS8rYl/Python_10.png", "id": 348, "sponsor_type": "Silver", "name": "Python"}, {"level": "4", "url": "http://www.youthmobile.org/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/350/logo/NE5RSjN0TX/YouthMobile_12.png", "id": 350, "sponsor_type": "Bronze", "name": "Youth Mobile"}, {"level": "1", "url": "http://blog.fossasia.org/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/343/logo/TUpoTVR1SE/Fossasia_5.png", "id": 343, "sponsor_type": "Diamond", "name": "FOSSASIA"}, {"level": "3", "url": "http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/free-and-open-source-software-foss/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/344/logo/a0g2WXRMcm/Unesco_6.png", "id": 344, "sponsor_type": "Gold", "name": "UNESCO"}, {"level": "1", "url": "http://www.science.edu.sg/", "description": "", "logo": "https://opevbucketname.s3.amazonaws.com/events/189/sponsors/349/logo/WmFJL0o0V2/ScienceCentreSingapore_11.png", "id": 349, "sponsor_type": "Gold", "name": "Science Centre Singapore"}]
+[
+    {
+        "id": 1, 
+        "name": "Google", 
+        "logo": "/images/sponsors/Google_1.png", 
+        "level": "1", 
+        "sponsor_type": "Diamond", 
+        "url": "https://developers.google.com/open-source/", 
+        "description": ""
+    }, 
+    {
+        "id": 2, 
+        "name": "RedHat", 
+        "logo": "/images/sponsors/Redhat_2.png", 
+        "level": "2", 
+        "sponsor_type": "Platinum", 
+        "url": "http://redhat.com", 
+        "description": ""
+    }, 
+    {
+        "id": 3, 
+        "name": "GitHub", 
+        "logo": "/images/sponsors/Github_3.png", 
+        "level": "1", 
+        "sponsor_type": "Platinum", 
+        "url": "http://github.com", 
+        "description": ""
+    }, 
+    {
+        "id": 4, 
+        "name": "MySQL", 
+        "logo": "/images/sponsors/Mysql_4.png", 
+        "level": "4", 
+        "sponsor_type": "Gold", 
+        "url": "http://mysql.com", 
+        "description": ""
+    }, 
+    {
+        "id": 5, 
+        "name": "FOSSASIA", 
+        "logo": "/images/sponsors/Fossasia_5.png", 
+        "level": "1", 
+        "sponsor_type": "Diamond", 
+        "url": "http://blog.fossasia.org/", 
+        "description": ""
+    }, 
+    {
+        "id": 6, 
+        "name": "UNESCO", 
+        "logo": "/images/sponsors/Unesco_6.png", 
+        "level": "3", 
+        "sponsor_type": "Gold", 
+        "url": "http://www.unesco.org/new/en/communication-and-information/access-to-knowledge/free-and-open-source-software-foss/", 
+        "description": ""
+    }, 
+    {
+        "id": 7, 
+        "name": "MBM", 
+        "logo": "/images/sponsors/Mbm_7.png", 
+        "level": "2", 
+        "sponsor_type": "Gold", 
+        "url": "http://mbm.asia/", 
+        "description": ""
+    }, 
+    {
+        "id": 8, 
+        "name": "hackerspace.sg", 
+        "logo": "/images/sponsors/Hackerspace.Sg_8.png", 
+        "level": "5", 
+        "sponsor_type": "Silver", 
+        "url": "https://hackerspace.sg/", 
+        "description": ""
+    }, 
+    {
+        "id": 9, 
+        "name": "NUS Enterprise", 
+        "logo": "/images/sponsors/NusEnterprise_9.png", 
+        "level": "4", 
+        "sponsor_type": "Silver", 
+        "url": "http://enterprise.nus.edu.sg/", 
+        "description": ""
+    }, 
+    {
+        "id": 10, 
+        "name": "Python", 
+        "logo": "/images/sponsors/Python_10.png", 
+        "level": "5", 
+        "sponsor_type": "Silver", 
+        "url": "https://www.python.org/", 
+        "description": ""
+    }, 
+    {
+        "id": 11, 
+        "name": "Science Centre Singapore", 
+        "logo": "/images/sponsors/ScienceCentreSingapore_11.png", 
+        "level": "1", 
+        "sponsor_type": "Gold", 
+        "url": "http://www.science.edu.sg/", 
+        "description": ""
+    }, 
+    {
+        "id": 12, 
+        "name": "Youth Mobile", 
+        "logo": "/images/sponsors/YouthMobile_12.png", 
+        "level": "4", 
+        "sponsor_type": "Bronze", 
+        "url": "http://www.youthmobile.org/", 
+        "description": ""
+    }
+]

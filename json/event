@@ -1,1 +1,94 @@
-{"thumbnail": null, "privacy": "public", "searchable_location_name": null, "copyright": {"licence_url": "http://creativecommons.org/licenses/by/4.0/", "licence": "Creative Commons Attribution License", "holder_url": "http://fossasia.org/contact/", "logo": "https://i.creativecommons.org/l/by/4.0/80x15.png", "holder": "FOSSASIA", "year": 2016}, "background_image": "https://opevbucketname.s3.amazonaws.com/events/189/background/TVpiUXRaeD/fossasia16.jpg", "code_of_conduct": "", "organizer_description": "The Internet of Things for Me at Asia's Premier Open Technology Event", "start_time": "2016-03-18T09:30:00", "location_name": "15 Science Centre Rd, Singapore 609081", "type": "Conference", "description": "FOSSASIA is the premier Free and Open Source technology event in Asia for developers, start-ups, and contributors. Projects at FOSSASIA range from open hardware, to design, graphics and software. FOSSASIA was established in 2009. Previous events took place in Cambodia and Vietnam.", "end_time": "2016-03-20T17:30:00", "timezone": "Asia/Singapore", "name": "FOSSASIA 2016", "identifier": "a38d9b13", "id": 189, "schedule_published_on": "2016-03-18T00:00:00", "sub_topic": null, "topic": "Science & Technology", "state": "Published", "has_session_speakers": true, "event_url": null, "ticket_url": null, "call_for_papers": {"start_date": "2016-03-10T19:30:00", "end_date": "2016-03-16T20:30:00", "privacy": "public", "announcement": "<p>Wanna speak at our prestigious event. Send us a proposal</p>", "timezone": "UTC"}, "email": "contact@fossasia.org", "longitude": 103.686, "latitude": 1.346, "creator": {"id": 69, "email": "shubhamapadia@gmail.com"}, "logo": "https://opevbucketname.s3.amazonaws.com/events/189/logo/ck1kUzlURk/fossasia-dark.png", "version": {"tracks_ver": 4, "event_ver": 1, "speakers_ver": 2, "sponsors_ver": 3, "microlocations_ver": 2, "sessions_ver": 3}, "organizer_name": "FOSSASIA", "large": null, "social_links": [{"link": "https://twitter.com/fossasia", "id": 123, "name": "Twitter"}, {"link": "https://github.com/fossasia", "id": 124, "name": "Github"}, {"link": "https://www.facebook.com/fossasia", "id": 125, "name": "Facebook"}, {"link": "https://www.flickr.com/photos/fossasia", "id": 126, "name": "Flickr"}, {"link": "https://plus.google.com/108920596016838318216", "id": 127, "name": "Google Plus"}, {"link": "https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ", "id": 128, "name": "YouTube"}, {"link": "https://www.linkedin.com/groups/FOSSASIA-3762811", "id": 129, "name": "Linkedin"}, {"link": "http://2016.fossasia.org/", "id": 130, "name": "External Event URL"}]}
+{
+    "id": 1, 
+    "name": "FOSSASIA 2016", 
+    "latitude": 1.346, 
+    "longitude": 103.686, 
+    "location_name": "15 Science Centre Rd, Singapore 609081", 
+    "start_time": "2016-03-18T09:30:00", 
+    "end_time": "2016-03-20T17:30:00", 
+    "timezone": "Asia/Singapore", 
+    "description": "FOSSASIA is the premier Free and Open Source technology event in Asia for developers, start-ups, and contributors. Projects at FOSSASIA range from open hardware, to design, graphics and software. FOSSASIA was established in 2009. Previous events took place in Cambodia and Vietnam.", 
+    "background_image": "/images/fossasia16.jpg", 
+    "logo": "/images/fossasia-dark.png", 
+    "organizer_name": "FOSSASIA", 
+    "organizer_description": "The Internet of Things for Me at Asia's Premier Open Technology Event", 
+    "social_links": [
+        {
+            "id": 1, 
+            "link": "https://twitter.com/fossasia", 
+            "name": "Twitter"
+        }, 
+        {
+            "id": 2, 
+            "link": "https://github.com/fossasia", 
+            "name": "Github"
+        }, 
+        {
+            "id": 3, 
+            "link": "https://www.facebook.com/fossasia", 
+            "name": "Facebook"
+        }, 
+        {
+            "id": 4, 
+            "link": "https://www.flickr.com/photos/fossasia", 
+            "name": "Flickr"
+        }, 
+        {
+            "id": 5, 
+            "link": "https://plus.google.com/108920596016838318216", 
+            "name": "Google Plus"
+        }, 
+        {
+            "id": 6, 
+            "link": "https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ", 
+            "name": "YouTube"
+        }, 
+        {
+            "id": 7, 
+            "link": "https://www.linkedin.com/groups/FOSSASIA-3762811", 
+            "name": "Linkedin"
+        }, 
+        {
+            "id": 8, 
+            "link": "http://2016.fossasia.org/", 
+            "name": "External Event URL"
+        }
+    ], 
+    "ticket_url": "http://www.eventnook.com/event/fossasia", 
+    "privacy": "public", 
+    "type": "Conference", 
+    "topic": "Science & Technology", 
+    "sub_topic": null, 
+    "code_of_conduct": "", 
+    "copyright": {
+        "holder": "FOSSASIA", 
+        "holder_url": "http://fossasia.org/contact/", 
+        "licence": "Creative Commons Attribution License", 
+        "licence_url": "http://creativecommons.org/licenses/by/4.0/", 
+        "logo": "https://i.creativecommons.org/l/by/4.0/80x15.png", 
+        "year": 2016
+    }, 
+    "call_for_papers": {
+        "announcement": "<p>Wanna speak at our prestigious event. Send us a proposal</p>", 
+        "end_date": "2016-03-16T20:30:00", 
+        "privacy": "public", 
+        "start_date": "2016-03-10T19:30:00", 
+        "timezone": "UTC"
+    }, 
+    "creator": {
+        "email": "s@g.com"
+    }, 
+    "email": "contact@fossasia.org", 
+    "has_session_speakers": true, 
+    "schedule_published_on": "2016-03-18T00:00:00", 
+    "searchable_location_name": null, 
+    "state": "Completed", 
+    "version": {
+        "event_ver": 1, 
+        "microlocations_ver": 2, 
+        "sessions_ver": 3, 
+        "speakers_ver": 2, 
+        "sponsors_ver": 3, 
+        "tracks_ver": 4
+    }
+}

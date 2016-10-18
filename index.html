@@ -20,8 +20,8 @@
   <!-- Latest compiled and minified CSS -->
  <link rel="shortcut icon" href="" type=image/x-icon>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel=stylesheet>
- <link rel=stylesheet href=./dependencies/font-awesome.min.css>
-  <link rel=stylesheet href=./dependencies/bootstrap.min.css>
+ <link rel=stylesheet href=./css/font-awesome.min.css>
+  <link rel=stylesheet href=./css/bootstrap.min.css>
   <link rel=stylesheet href=./css/schedule.css>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -30,7 +30,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
     </head>
- 
+
     <body onload=datafetcher()>
     <a id=top></a>
     
@@ -38,21 +38,12 @@
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class=container>
                 <div class="navbar-header navbar-left pull-left">
-                    <a class=navbar-brand href="">
+                    <a class=navbar-brand href=.>
                             <img alt="FOSSASIA 2016" class="logo logo-dark" src=images/fossasia-dark.png>
                     </a>
                 </div>
     
             <div class="navbar-header navbar-right pull-right">
-              <ul style=margin-left:20px class="nav navbar-nav pull-left">
-                    <li class=pull-left><a href=https://twitter.com/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-twitter" aria-hidden=true title=twitter></i></a></li>
-                    <li class=pull-left><a href=https://github.com/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-github" aria-hidden=true title=github></i></a></li>
-                    <li class=pull-left><a href=https://www.facebook.com/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-facebook" aria-hidden=true title=facebook></i></a></li>
-                    <li class=pull-left><a href=https://www.flickr.com/photos/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-flickr" aria-hidden=true title=flickr></i></a></li>
-                    <li class=pull-left><a href=https://plus.google.com/108920596016838318216 style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-google-plus" aria-hidden=true title=google-plus></i></a></li>
-                    <li class=pull-left><a href=https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-youtube-play" aria-hidden=true title=youtube-play></i></a></li>
-                    <li class=pull-left><a href=https://www.linkedin.com/groups/FOSSASIA-3762811 style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-linkedin" aria-hidden=true title=linkedin></i></a></li>
-              </ul>
               <button type=button class=navbar-toggle data-toggle=collapse data-target=.navbar-collapse style=margin-left:2em;margin-top:1em>
                 <span class=sr-only>Toggle navigation</span>
                 <span class=icon-bar></span>
@@ -69,43 +60,64 @@
                 <li class=navlink><a id=trackslink href=tracks.html>Tracks</a></li>
                 <li class=navlink><a id=roomslink href=rooms.html>Rooms</a></li>
                 <li class=navlink><a id=speakerslink href=speakers.html>Speakers</a></li>
+    
+                    <li class="pull-left social-icons"><a href=https://twitter.com/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-twitter" aria-hidden=true title=twitter></i></a></li>
+                    <li class="pull-left social-icons"><a href=https://github.com/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-github" aria-hidden=true title=github></i></a></li>
+                    <li class="pull-left social-icons"><a href=https://www.facebook.com/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-facebook" aria-hidden=true title=facebook></i></a></li>
+                    <li class="pull-left social-icons"><a href=https://www.flickr.com/photos/fossasia style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-flickr" aria-hidden=true title=flickr></i></a></li>
+                    <li class="pull-left social-icons"><a href=https://plus.google.com/108920596016838318216 style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-google-plus" aria-hidden=true title=google-plus></i></a></li>
+                    <li class="pull-left social-icons"><a href=https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-youtube-play" aria-hidden=true title=youtube-play></i></a></li>
+                    <li class="pull-left social-icons"><a href=https://www.linkedin.com/groups/FOSSASIA-3762811 style=padding-right:0;padding-left:0;margin-left:15px><i class="fa fa-lg fa-linkedin" aria-hidden=true title=linkedin></i></a></li>
+    
               </ul>
             </div>
           </div>
         </nav>
     <div class="carousel slide" style=margin-bottom:0>
        <div id=info class=carousel-inner>
-        <div style=background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url(images/fossasia16.jpg);background-repeat:no-repeat;background-attachment:fixed;background-size:cover;background-position:center class="item active"> 
-          <div class=container> 
-          <div class=carousel-caption> 
+        <div style=background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url(images/fossasia16.jpg);background-repeat:no-repeat;background-attachment:fixed;background-size:cover;background-position:center class="item active">
+          <div class=container>
+          <div class=carousel-caption>
           <h4>Friday, 18th Mar at 09:30</h4>
-          <h1>FOSSASIA 2016</h1> 
+          <h1>FOSSASIA 2016</h1>
           <h4><i class="fa fa-map-marker"></i>
-           15 Science Centre Rd, Singapore 609081</h4> 
-           <p></p> 
-          </div> 
+           15 Science Centre Rd, Singapore 609081</h4>
+           <p></p>
+          </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
 
-  <div class="eventpage container" style=background-color:#fff> 
+  <div class="eventpage container" style=background-color:#fff>
+    <div class="listing-panel row">
+        <div class=col-md-12>
+         <div class=row>
+           <div class=col-md-4>
+           </div>
+           <div style=padding-right:30px class=col-md-8>
+             <a id=ticket-button style=display:block;position:relative;top:-87px;visibility:hidden></a>
+             <a href=http://www.eventnook.com/event/fossasia class="pull-right btn btn-lg btn-primary" role=button>Tickets</a>
+           </div>
+         </div>
+        </div>
+    </div>
     <a id=description></a>
     <div class=container>
        <div class=row>
           <div class="eventdes col-md-12"><p style=padding:1px>FOSSASIA is the premier Free and Open Source technology event in Asia for developers, start-ups, and contributors. Projects at FOSSASIA range from open hardware, to design, graphics and software. FOSSASIA was established in 2009. Previous events took place in Cambodia and Vietnam.</p></div>
-        </div> 
-    </div> 
-  <div class=container>      
-    <div class=row> 
-      <div class=col-md-12>   
+        </div>
+    </div>
+  <div class=container>
+    <div class=row>
+      <div class=col-md-12>
         <section class="speakers duplicatable-content">
           <div style=padding:0 class=container>
             <div class=row>
               <div class="col-sm-12 text-center">
                   <h1 class=section-header>Featured Speakers</h1>
               </div>
-            </div> 
+            </div>
           </div>
             <div class=row style=margin-top:50px>
                                             
@@ -114,13 +126,13 @@
                <div class=speaker-with-bio>
                 <div class=speaker>
                   <div class=image-holder>
-                    <img onerror='this.onerror=null,this.src="./dependencies/avatar.png"' class=background-image alt="Cat Allman" src=images/speakers/CatAllman_8.jpg>
+                    <img onerror='this.onerror=null,this.src="./images/avatar.png"' class=background-image alt="Cat Allman" src=images/speakers/CatAllman_8.jpg>
                     <div class=responsive-overlay>
                       <div class="hover-state text-center preserve3d">
                         <div class="social-links vertical-align">
                         <a href=https://developers.google.com/open-source/ target=default><i class="icon fa fa-home"></i></a>
                          <a href=https://twitter.com/catallman><i class="icon fa fa-twitter"></i></a>
-                         <a href=https://www.linkedin.com/in/catallman><i class="icon fa fa-linkedin"></i></a>  
+                         <a href=https://www.linkedin.com/in/catallman><i class="icon fa fa-linkedin"></i></a>
                         </div>
                       </div>
                     </div>
@@ -142,7 +154,7 @@
                <div class=speaker-with-bio>
                 <div class=speaker>
                   <div class=image-holder>
-                    <img onerror='this.onerror=null,this.src="./dependencies/avatar.png"' class=background-image alt="Colin Charles" src=images/speakers/ColinCharles_39.jpg>
+                    <img onerror='this.onerror=null,this.src="./images/avatar.png"' class=background-image alt="Colin Charles" src=images/speakers/ColinCharles_39.jpg>
                     <div class=responsive-overlay>
                       <div class="hover-state text-center preserve3d">
                         <div class="social-links vertical-align">
@@ -169,13 +181,13 @@
                <div class=speaker-with-bio>
                 <div class=speaker>
                   <div class=image-holder>
-                    <img onerror='this.onerror=null,this.src="./dependencies/avatar.png"' class=background-image alt="Davide Storti" src=images/speakers/DavideStorti_7.jpg>
+                    <img onerror='this.onerror=null,this.src="./images/avatar.png"' class=background-image alt="Davide Storti" src=images/speakers/DavideStorti_7.jpg>
                     <div class=responsive-overlay>
                       <div class="hover-state text-center preserve3d">
                         <div class="social-links vertical-align">
                         <a href=http://www.youthmobile.org target=default><i class="icon fa fa-home"></i></a>
                          <a href=https://twitter.com/YouthMobile_><i class="icon fa fa-twitter"></i></a>
-                         <a href=https://www.linkedin.com/company/unesco><i class="icon fa fa-linkedin"></i></a>  
+                         <a href=https://www.linkedin.com/company/unesco><i class="icon fa fa-linkedin"></i></a>
                         </div>
                       </div>
                     </div>
@@ -197,7 +209,7 @@
                <div class=speaker-with-bio>
                 <div class=speaker>
                   <div class=image-holder>
-                    <img onerror='this.onerror=null,this.src="./dependencies/avatar.png"' class=background-image alt="Lim Tit Meng" src=images/speakers/LimTitMeng_3.jpg>
+                    <img onerror='this.onerror=null,this.src="./images/avatar.png"' class=background-image alt="Lim Tit Meng" src=images/speakers/LimTitMeng_3.jpg>
                     <div class=responsive-overlay>
                       <div class="hover-state text-center preserve3d">
                         <div class="social-links vertical-align">
@@ -223,13 +235,13 @@
                <div class=speaker-with-bio>
                 <div class=speaker>
                   <div class=image-holder>
-                    <img onerror='this.onerror=null,this.src="./dependencies/avatar.png"' class=background-image alt="Mike McQuaid" src=images/speakers/MikeMcquaid_10.jpg>
+                    <img onerror='this.onerror=null,this.src="./images/avatar.png"' class=background-image alt="Mike McQuaid" src=images/speakers/MikeMcquaid_10.jpg>
                     <div class=responsive-overlay>
                       <div class="hover-state text-center preserve3d">
                         <div class="social-links vertical-align">
                         <a href=http://mikemcquaid.com target=default><i class="icon fa fa-home"></i></a>
                          <a href=https://twitter.com/MikeMcQuaid><i class="icon fa fa-twitter"></i></a>
-                         <a href=https://www.linkedin.com/in/mkmcqd><i class="icon fa fa-linkedin"></i></a>  
+                         <a href=https://www.linkedin.com/in/mkmcqd><i class="icon fa fa-linkedin"></i></a>
                         </div>
                       </div>
                     </div>
@@ -251,7 +263,7 @@
                <div class=speaker-with-bio>
                 <div class=speaker>
                   <div class=image-holder>
-                    <img onerror='this.onerror=null,this.src="./dependencies/avatar.png"' class=background-image alt="Ricky Setyawan" src=images/speakers/RickySetyawan_14.jpg>
+                    <img onerror='this.onerror=null,this.src="./images/avatar.png"' class=background-image alt="Ricky Setyawan" src=images/speakers/RickySetyawan_14.jpg>
                     <div class=responsive-overlay>
                       <div class="hover-state text-center preserve3d">
                         <div class="social-links vertical-align">
@@ -272,16 +284,16 @@
             </div>
 
                                                                 
-            </div>  
+            </div>
       </section>
       <!--<div style="height:400px;overflow-x:hidden;overflow-y:overlay;" class= "twitter col-md-2">
-       <a class="twitter-timeline" href="fossasia"></a> 
+       <a class="twitter-timeline" href="fossasia"></a>
       </div>-->
-    </div> 
+    </div>
   </div>
-    
+
 </div>
- </div>  
+ </div>
    <div class=row style=background:#f5f5f5;margin-right:0;margin-left:0;height:600px>
     <section class="container sponsorscont">
       <div class=tweet-row>
@@ -296,14 +308,14 @@
               <p>Follow<u>
               <b><a href=https://twitter.com/fossasia>
               @fossasia
-              </b></u> for more updates</p>  
-          </div> 
+              </b></u> for more updates</p>
+          </div>
         </div>
       </div>
-    </section>  
+    </section>
   </div>
 
-    <div style=background:#fff>    
+    <div style=background:#fff>
     <section class=sponsorscont>
       <div style=margin-right:0;margin-left:0 class=row>
         <div class="col-sm-12 col-md-12 col-xs-12 text-center">
@@ -312,7 +324,7 @@
       </div>
       <div style=margin-right:0;margin-left:0 class=row>
         <div class="col-sm-10 col-sm-offset-1">
-          
+
           <div class="row sponsor-row">
             <div class="vcenter col-md-4 col-sm-6">
               <div class="vcenter sponsorimg text-center">
@@ -400,9 +412,9 @@
             </div>
            </div> <!-- sponsor-row -->
         </div>
-      </div>  
-    </section> 
-    </div> 
+      </div>
+    </section>
+    </div>
 
 <div style=background:#f5f5f5>
     <div style=margin-right:0;margin-left:0 class=row>
@@ -414,9 +426,9 @@
        <br>
        <h4>Contact</h4>
        <p>contact@fossasia.org</p>
-      </div>  
-    </div> 
-</div>         
+      </div>
+    </div>
+</div>
 
 
   <input type=hidden id=mappos value=1.346,103.686>
@@ -429,6 +441,7 @@
         <div style=margin-bottom:14px class="col-sm-2 col-md-2 col-xs-12">
           <ul class=menu>
             <li><a target=_self href=index.html#description>About</a></li>
+            <li><a target=_self href=index.html#ticket-button>Tickets</a></li>
             <li><a target=_self href=schedule.html>Schedule</a></li>
             <li><a target=_self href=tracks.html>Tracks</a></li>
             <li><a target=_self href=rooms.html>Rooms</a></li>
@@ -480,15 +493,15 @@
   </div>
 </div>
 </footer>
-</div>  
+</div>
 
-    <script src=./dependencies/jquery.min.js></script>
-    <script src=./dependencies/bootstrap.min.js></script>
+    <script src=./js/jquery.min.js></script>
+    <script src=./js/bootstrap.min.js></script>
     <script async defer=defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd_L2ncYmf3Yyr6Or01E_ze6QEv289HYs&callback=initMap"></script>
     <script src=./js/popover.js></script>
    <script src=./js/map.js></script>
-   <script src=./dependencies/loklak-fetcher.js></script>
-   <script src=./dependencies/tweets.js></script>
+   <script src=./js/loklak-fetcher.js></script>
+   <script src=./js/tweets.js></script>
    <!--<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>-->
 
     <script src=./js/navbar.js></script>
