@@ -24,11 +24,11 @@ after_success:
 deploy:
   provider: heroku
   api_key:
-    secure: ogAnS9LCFXVkMocd7DbYup45n8eRHIFpeptDP947PajNy27xPfOspBGj1UMQri/0d/hAYqdC52Bfd7eccyOLm/6H9d5LzDWNBHz4rqT+FXkdpJf7PofC7kUua5oUXlh0eiccBKwn3j8n3suLnLsigJ/UD4rjKIGKrfodAud4XhsPdg0+XVNihDa6rSMH5G6TTAYQjukCLT2TlCPFiyNSJvfjH1+h2uE93vWBzsjkLzlWMoAr00uAwlYJgotoQ9v2ECqfZ7mhAJCwSoRdqmir9Xvj5GSj3qRc953bbye8ZJoEMXDt9N2GNwV3/3XFtrc/fQuq7cRj2OFZuDZ/Ch0Z2MQGbXoG0gqRfntoGFBDcx4w+rifburPnIDS4V4H5DpW/lohGG6tWLSa4ynfF5utnUowpy9pT8RCBmrvZkLfSfqF4J/rh7HzfyhMpDGqv5hcs+RSJZQiLN8sdcSRvz2aKoaAxXi7U0IfUAUluJ9fPD5WRmUbV3FwAxEjjuRMKYabelam7lvKI6vyf6lWt1oyI4EKd7M33JfeRbcJ9BwM4SDbgxHCSeSI4AIiqFs1l35ZVfDlz8yLhHt33ZWSBrWoGw3e83rUJPc/I9Uxu4xX3WKCZ+tXKD8YA64rdeoCDra/2Ad2Rm4doFgdWmW2I23jKNx/CtKiq3YXcWmiBCaL6IQ=
-  app: opev-webgen-dev
+    secure: vlhKjfHsLuznxAh6q4ZNNkIxqhn+SFCQYJGZSq0S1DXVw8g2v3p02LW22zYAUgZPVyT9yQeOvdXEV+H2A0I/6rvqjgQ5JhNqX64WNLDAZu0mz4JNFnro7Q8Z8HPlEjnM7/t/clTtPvAcy9ZGSVT7eQtTfX32YvM18Te6GZ6JyC4DgdRsmbYrCL3EG1bAyvnWs8b0h9b0YGLF578z05JWONBwu1HFDSvpFpz2oBN7vrIIuAw9TFo6BwZm3oVHnrzrxQR521rlEY1ENGPcGEnkujBozics800t5JPDWZEr5LQM1j0IHYhpR2A24DYYt3Wpxi4JwarOMjgnCP/OcTBzawkKABBLaq6azLaZLFS/Jaeo3X5tukJMzRTI1ZGXLhhpdBGJgmzS/rNMnr4iOdYohCv2GyDsyigj93SHOzOkveBxcIKVp4Lp11YONWMlaW/W0GsuHCOpYYWGbXEYB1TSXFdpatLd+8EeAwR6PeTGaU3z5xfra9q6zQ9Ij5dzJRWfUk2/QxCmGq5/SaU/ArCX0X1ijOrkLd34QvadQunjwQGiNbWiaBDj8sKWhTpTS7De5GTTYTdQN/XP6dsU1nopaULtA/oYq81HhgxjgrbmtpCST/wyr0yuSMKyz/Npvp4HAg9YEYuTIOe9lCYnDdDoZvC/M9w2TK3T4DnpCpPBXbQ=
+  app: shubhamopevwebgen
   skip_cleanup: true # this will skip cleaning up assets generated while testing in travis, be sure to delete any extra components you're generating. 
   on:
-    repo: fossasia/open-event-webapp
+    repo: shubham-padia/open-event-webapp
     branch:
-      - master
-      - development
+    - master
+    - development

@@ -77,7 +77,7 @@ function foldByTrack(sessions, speakers, trackInfo, reqOpts) {
           session.audio = distHelper.downloadAudio(appFolder, session.audio);
         }
         else if (reqOpts.datasource === 'eventapi') {
-          session.audio = encodeURI(distHelper.downloadLogo(appFolder, urljoin(reqOpts.apiendpoint,'/', event.logo)));
+          session.audio = encodeURI(distHelper.downloadAudio(appFolder, urljoin(reqOpts.apiendpoint,'/', session.audio)));
         } 
       }
     }

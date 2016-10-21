@@ -19,7 +19,7 @@ const downloadFile = function(url, filePath) {
     console.log(err);
   });
   try {
-    request(url).pipe(fileStream);
+    request.get(url, {timeout: 10000}).pipe(fileStream);
   } catch (err) {
     console.log(err);
   }
@@ -285,7 +285,7 @@ module.exports = {
     const audioFileName = audioUrl.split('/').pop();
     const audioFilePath = 'audio/' + audioFileName;
 
-    console.log('Downloading audio : ' + audioFileName);
+    console.log('Downloading audio : ' + audioFileName + audioFilePath + audioUrl);
 
     downloadFile(audioUrl, appPath + '/' + audioFilePath);
     return audioFilePath;
