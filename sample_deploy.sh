@@ -12,6 +12,7 @@ rev=$(git rev-parse --short HEAD)
 
 HSAMPLE_EVENT="${HSAMPLE_EVENT:-Open\ Tech\ Summit}"
 GH_EVENT="${GH_EVENT:-FOSSASIA\ 2016}"
+
 mkdir sample
 eval mv dist/a@a.com/$HSAMPLE_EVENT/* sample
 eval cd dist/a@a.com/$GH_EVENT/
