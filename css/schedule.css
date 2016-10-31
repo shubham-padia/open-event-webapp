@@ -897,38 +897,3 @@ a {
         display: block;
         float: none;
         margin: 0 auto; } }
-
-#audioplayer {
-  height: 60px;
-  margin: 5px auto auto auto; }
-
-#pButton {
-  height: 60px;
-  width: 60px;
-  border: none;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  float: left;
-  outline: none; }
-
-.play {
-  background: url("../images/play.png"); }
-
-.pause {
-  background: url("../images/play.png"); }
-
-#timeline {
-  width: 400px;
-  height: 20px;
-  margin-top: 20px;
-  float: left;
-  border-radius: 15px;
-  background: rgba(0, 0, 0, 0.3); }
-
-#playhead {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  margin-top: 1px;
-  background: black; }
