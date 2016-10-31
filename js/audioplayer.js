@@ -92,3 +92,6 @@ function play() {
 music.addEventListener("canplaythrough", function () {
 	duration = music.duration;  
 }, false);
+$('.no-collapse').on('click', function (e) {
+    e.stopPropagation();
+});
