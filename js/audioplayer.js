@@ -1,3 +1,4 @@
+window.onload = function() {
 var music = document.getElementById('music'); // id for audio element
 var duration; // Duration of audio clip
 var pButton = document.getElementById('pButton'); // play button
@@ -92,3 +93,4 @@ function play() {
 music.addEventListener("canplaythrough", function () {
 	duration = music.duration;  
 }, false);
+}
