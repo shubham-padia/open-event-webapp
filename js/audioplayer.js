@@ -92,4 +92,8 @@ function play() {
 music.addEventListener("canplaythrough", function () {
 	duration = music.duration;  
 }, false);
-$('.no-collapse').removeAttr('data-toggle');
+$('.no-collapse').on('hide.bs.collapse', function (e) {
+  return isMyDivEnabled(); // true or false
+}).on('show.bs.collapse', function (e) {
+  return isMyDivEnabled(); // true or false
+});
