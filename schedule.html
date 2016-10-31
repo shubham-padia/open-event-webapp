@@ -24141,7 +24141,6 @@
   <script src=./js/bootstrap.min.js></script>
   <script src=./js/navbar.js></script>
   <script src=./js/scroll.js></script>
-  <script src=./js/audioplayer.js></script>
   <script>$(document).ready(function(){$(".session-lin").click(function(){$(this).next(".inputbox").toggle().select();var t=$(this).next(".inputbox").val();$(this).next(".inputbox").val(window.location.href.split("#")[0]+"#"+t.split("#").pop())}),$(".fossasia-filter:first").change(function(){var t=$(this).val();return t?$(".day-filter").each(function(){var i=1;$(this).find(".time-filter").each(function(){var e=1;$(this).find(".track-inline").each(function(){$(this).find(".tip-description").text().toUpperCase().indexOf(t.toUpperCase())<0&&$(this).find(".session-speakers-list a p span").text().toUpperCase().indexOf(t.toUpperCase())<0&&$(this).find(".session-speakers-more").text().toUpperCase().indexOf(t.toUpperCase())<0&&$(this).find(".event").text().toUpperCase().indexOf(t.toUpperCase())<0?$(this).hide():(e=0,$(this).show())}),1==e?$(this).hide():(i=0,$(this).show())}),1==i?$(this).hide():$(this).show()}):$(".day-filter").each(function(){$(this).find(".time-filter").each(function(){$(this).find(".track-inline").each(function(){$(this).show()}),$(this).show()}),$(this).show()}),0==$(".day-filter:visible").length?($("#no-results").remove(),$(".search-filter:first").after('<p id="no-results">No matching results found.</p>')):$("#no-results").remove(),!1}).keyup(function(){$(this).change()})})</script>
 </body>
 </html>
