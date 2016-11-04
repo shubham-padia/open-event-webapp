@@ -115,6 +115,8 @@ a {
     color: #2196F3; }
 
 @media (max-width: 450px) {
+  .speaker-with-bio .speaker-description {
+    display: table; }
   .session-link > .fa {
     font-size: 24px; }
   .video-link > .fa {
@@ -124,6 +126,8 @@ a {
     margin-top: -8px; } }
 
 @media (max-width: 500px) {
+  .speaker-with-bio .speaker-description {
+    display: table; }
   .nav > li > a {
     padding: 8px !important; } }
 
@@ -218,6 +222,8 @@ a {
   margin-left: 41.66666667%; }
 
 @media (max-width: 792px) {
+  .speaker-with-bio .speaker-description {
+    display: table; }
   .sublargeoffset:first-child {
     margin-left: 0; }
   .mediumoffset:first-child {
