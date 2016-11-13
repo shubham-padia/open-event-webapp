@@ -177,7 +177,6 @@ $(document).ready(function () {
     }
     if (!$('.preserve3d').is(event.target) && !$('.pop-box').is(event.target) ){
       adjustFooter(event);
-
     } 
   }
 
@@ -185,7 +184,11 @@ $(document).ready(function () {
    $(document).on('touchstart',function(e) {
       let container = popbox;
       if (!container.is(e.target) && container.has(e.target).length === 0) {
-        container.addClass('hide');
+        console.log(container.hasClass('hide'));
+        if(!container.hasClass('hide')){
+          container.toggleClass('hide');
+        }
+        
          hidePopbox();
          removeOverlay(e);
       }
