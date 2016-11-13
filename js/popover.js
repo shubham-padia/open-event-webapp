@@ -1,9 +1,6 @@
 /* Created by aayusharora on June 20, 2017 */
 
 $(document).ready(function () {
-  var useragent = navigator.userAgent;
-  var touchclick = (useragent.match(/iPad/i) || useragent.match(/iPhone/)) ? "touchstart" : "click";
-
   let widthWindow = $(window).width();
       popbox = $(".pop-box");
       headerpop = $(".header-pop");
@@ -13,7 +10,7 @@ $(document).ready(function () {
      
   popbox.addClass('hide');
   if( widthWindow < 768) {
-    $(document).on('touchclick','.sizeevent',function (event) {
+    $(document).on('click','.sizeevent',function (event) {
       popBox(event);
     });
   }
@@ -35,8 +32,7 @@ $(document).ready(function () {
       preserve3d= $(".preserve3d");
       widthWindow = $(window).width();
   if( widthWindow < 768) {
-    
-    $(document).on('touchclick','.image-holder',function (event) {
+    $(document).on('click','.image-holder',function (event) {
        addOverlay(event);
     });
   }
@@ -186,7 +182,7 @@ $(document).ready(function () {
   }
 
   if (widthWindow < 768) {
-   $(document).mouseup(function(e) {
+   $(document).on('touchstart',function(e) {
       let container = popbox;
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         container.addClass('hide');
