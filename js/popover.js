@@ -183,11 +183,12 @@ $(document).ready(function () {
   if (widthWindow < 768) {
    $(document).on('touchstart',function(e) {
       let container = popbox;
+      alert('in the touchstart');
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         console.log(container.hasClass('hide'));
-        alert('in the loop');
+       // alert('in the loop');
         if(!container.hasClass('hide')){
-          alert("it has hide class");
+        //  alert("it has hide class");
           container.toggleClass('hide');
         }
          hidePopbox();
