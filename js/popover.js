@@ -1,7 +1,8 @@
 /* Created by aayusharora on June 20, 2017 */
 
 $(document).ready(function () {
-  var touchclick = (ua.match(/iPad/i) || ua.match(/iPhone/)) ? "touchstart" : "click";
+  var useragent = navigator.userAgent;
+  var touchclick = (useragent.match(/iPad/i) || useragent.match(/iPhone/)) ? "touchstart" : "click";
 
   let widthWindow = $(window).width();
       popbox = $(".pop-box");
