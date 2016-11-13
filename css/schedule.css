@@ -562,7 +562,8 @@ a {
       .speakers-row .speaker-column .speaker .image-holder {
         margin-bottom: 12px;
         overflow: hidden;
-        position: relative; }
+        position: relative;
+        cursor: pointer; }
         .speakers-row .speaker-column .speaker .image-holder .background-image {
           background-color: #f8f8fa;
           display: block;
