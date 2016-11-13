@@ -185,10 +185,11 @@ $(document).ready(function () {
       let container = popbox;
       if (!container.is(e.target) && container.has(e.target).length === 0) {
         console.log(container.hasClass('hide'));
+        alert('in the loop');
         if(!container.hasClass('hide')){
+          alert("it has hide class");
           container.toggleClass('hide');
         }
-        
          hidePopbox();
          removeOverlay(e);
       }
