@@ -1,5 +1,5 @@
 /* Created by aayusharora on June 20, 2017 */
-$(document).bind('touchstart', function() {});
+
 $(document).ready(function () {
   let widthWindow = $(window).width();
       popbox = $(".pop-box");

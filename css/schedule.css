@@ -262,7 +262,8 @@ a {
   font-style: normal;
   font-weight: 400;
   padding: 20px;
-  width: auto; }
+  width: auto;
+  cursor: pointer; }
   .sizeevent span {
     font-weight: 700; }
 
