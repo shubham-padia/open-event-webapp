@@ -177,20 +177,15 @@ $(document).ready(function () {
     }
     if (!$('.preserve3d').is(event.target) && !$('.pop-box').is(event.target) ){
       adjustFooter(event);
+
     } 
   }
 
   if (widthWindow < 768) {
-   $(document).on('touchstart',function(e) {
+   $(document).mouseup(function(e) {
       let container = popbox;
-      alert('in the touchstart');
       if (!container.is(e.target) && container.has(e.target).length === 0) {
-        console.log(container.hasClass('hide'));
-       // alert('in the loop');
-        if(!container.hasClass('hide')){
-        //  alert("it has hide class");
-          container.toggleClass('hide');
-        }
+        container.addClass('hide');
          hidePopbox();
          removeOverlay(e);
       }
